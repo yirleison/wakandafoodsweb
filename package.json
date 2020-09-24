@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm cache clean --force && node server.js",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "npm  run build -prod"
+    "heroku-postbuild": "ng build --prod"
   },
   "engines": {
     "node": "12.18.3",
