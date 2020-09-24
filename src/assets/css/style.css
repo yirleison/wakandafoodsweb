@@ -416,7 +416,7 @@ ol.type li a:hover {
 #team {
 	color: #fff;
 	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
-	background-size: cover;
+  background-size: cover;
 }
 #team .overlay {
 	padding: 120px 0 80px 0;

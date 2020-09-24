@@ -24,15 +24,68 @@
   width: 100%;
   height: 400px;
 }
+.parrafo {
+  text-align: justify;
+}
 @media only screen and (max-width: 600px) {
   #restaurant-menu {
-  margin-left: 56px;
+    margin-left: 8em;
   }
   #portfolio {
     text-align: center;
     margin-left: 72px;
   }
+  #title_wakandafoods h2 {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
 
+  #title_wakandafoods h3 {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 15px;
+  }
+  #title_wakandafoods hr {
+    display: inline-block;
+    margin-left: 12em;
+  }
+
+  #title_wakandafoods p {
+    display: inline-block;
+    margin-left: 5em;
+  }
+
+  #about img {
+    margin-left: 4em;
+  }
+  #parrafo_menu {
+    padding: 1em;
+  }
+  .menu-item img {
+    margin-left: -47px;
+  }
+
+  #team {
+    width: 120% !important;
+    margin-left: 22px;
+  }
+  #call-reservation{
+    margin-left: 22px;
+    width: 481px;
+  }
+  #numro_reservas {
+    font-size: 26px;
+  }
+  #contact{
+    margin-top: 9px;
+    margin-left: 24px;
+    width: 120%;
+  }
+  #redes_sociales{
+    width: 117%;
+    margin-left: 25px;
+  }
 }
-
-
